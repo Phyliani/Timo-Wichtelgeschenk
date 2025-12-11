@@ -37,6 +37,9 @@ function showMessage(message, isSuccess) {
 revealButton.addEventListener('click', () => {
 const userInput = passwordInput.value.trim().toUpperCase();
 
+passwordInput.remove();
+revealButton.remove();
+
 if (userInput === CORRECT_PASSWORD) {
     showMessage(`
         <h3 class="text-2xl font-bold mb-2">ERFOLG! Der Pfad ist vollendet!</h3>
