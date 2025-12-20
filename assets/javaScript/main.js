@@ -45,8 +45,8 @@ if (userInput === CORRECT_PASSWORD) {
         <h3 class="text-2xl font-bold mb-2">ERFOLG! Der Pfad ist vollendet!</h3>
         <p class="text-lg">Herzlichen Glückwunsch, Timo!</p>
         <p class="mt-4">Dein Preis, das ultimative Schrott-Wichtelgeschenk, erwartet dich nun endlich</p>
-        <p class="mt-2 text-xl glow-text">DEIN GESCHENK IST: Die Star Wars Triologie!!</p>
-        <p class="mt-4 italic">Viel Spaß damit! Und möge die Macht mit dir sein! 🖖</p>
+        <p class="mt-2 text-xl glow-text">DEIN GESCHENK IST: Ein Gitarrenkurs von Prof. Sonja Prunnbauer!!</p>
+        <p class="mt-4 italic">Viel Spaß damit! Und hoffentlich beherrschst du die nötige Technik! 🖖</p>
         `, true);
         revealButton.disabled = true;
         passwordInput.disabled = true;
